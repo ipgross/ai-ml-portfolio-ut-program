@@ -53,4 +53,7 @@ The goal was to analyze operational efficiency, customer satisfaction, and reven
 
 ## How to Explore
 1. Open the notebook (`notebook.ipynb`) for EDA and visualizations  
-2. Revi
+2. Review the dataset (`data.csv`) for order-level detail  
+3. Open the slides (`slides.pptx`) for executive summary and recommendations  
+
+---
