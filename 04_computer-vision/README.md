@@ -15,8 +15,8 @@ This project built an image classification system to detect **safety helmet usag
 ## Contents
 - [notebook.ipynb](./notebook.ipynb) → Colab notebook with model training & evaluation  
 - [slides.pdf](./slides.pdf) → project presentation deck  
-- [data_images.npy](./data_images.npy) → image dataset (200×200 RGB images)  
 - [data_labels.csv](./data_labels.csv) → labels (helmet vs no helmet)  
+- **Full image dataset (`data_images.npy`)** → [Download from Google Drive](https://drive.google.com/file/d/1MrEuAprqHQwQ_ELz1x-yxMTbuuSzSuP-/view?usp=drive_link)  
 
 ---
 
@@ -24,7 +24,6 @@ This project built an image classification system to detect **safety helmet usag
 - **Total Images:** 631  
   - 311 with helmets  
   - 320 without helmets  
-- **Environments:** construction sites, factories, varied lighting/poses  
 - **Preprocessing:** normalization, grayscale conversion, stratified splits (train/val/test)  
 
 ---
@@ -37,7 +36,7 @@ This project built an image classification system to detect **safety helmet usag
    - Val Recall: ~98%  
 
 3. **VGG-16 + FFNN**  
-   - Achieved perfect classification, more robust than baseline CNN  
+   - Achieved robust classification  
 
 4. **VGG-16 + FFNN + Data Augmentation**  
    - **Final model** — perfect classification with improved generalization  
@@ -57,13 +56,13 @@ This project built an image classification system to detect **safety helmet usag
 - Deploy model in **real-time camera systems** for workplace safety monitoring  
 - Extend to detect other PPE (gloves, vests, eyewear)  
 - Integrate with alert systems for immediate supervisor notifications  
-- Retrain periodically with new image data to maintain robustness  
 
 ---
 
 ## How to Explore
-1. Open the notebook (`notebook.ipynb`) for EDA, preprocessing, and model training  
-2. Review `data_images.npy` and `data_labels.csv` for dataset samples  
-3. Open the slides (`slides.pdf`) for a concise executive summary  
+1. Open the notebook (`notebook.ipynb`) for preprocessing, model training, and results  
+2. Review `data_labels.csv` for labels  
+3. Download the full image dataset from [Google Drive](https://drive.google.com/file/d/1MrEuAprqHQwQ_ELz1x-yxMTbuuSzSuP-/view?usp=drive_link)  
+4. Open the slides (`slides.pdf`) for a concise executive summary  
 
 ---
